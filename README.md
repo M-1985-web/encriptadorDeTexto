@@ -5,7 +5,7 @@ Usamos como herramienta para gestionar el proyecto tableros de Trello.
 
 # Puedes visualizar la app directamente en https://m-1985-web.github.io/encriptadorDeTexto/ 
 
-# Para que funcione debes copiar el texto  encriptado, pegarlo y presionar el boton desemcriptar.
+# Para que funcione debes copiar el texto  encriptado, pegarlo y presionar el boton desencriptar.
 
 # Aplicación que encripta textos, para poder intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
