@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge1AluraOracleNextEducation</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <footer>
+        <div class="div-titulo">
+            <img src="imagenes/Logo-1.png" alt="" class="logo-titulo">
+            <h1>¡Encriptador de texto!</h1>
+        </div>
+    </footer>
+
+    <main class="contenedor-principal">
+
+        <section class="container1">
+
+            <div class="tarjeta1">
+                <div class="mensaje-contenedor">
+
+                    <input 
+                        autofocus 
+                        type="text" 
+                        id="mensaje" 
+                        placeholder="Ingrese su mensaje"
+                    >
+                 
+                    <div class="contenedor-errores"></div>
+                </div>
+
+                <div class="contenedor-botones">
+                    <button class="btn-copy" id="encriptar">Encriptar</button>
+                    <button class="btn-copy" id="desencriptar">Desencriptar</button>
+                </div>
+
+                <div class="advertencia">
+                    <div>
+                        <span>
+                            <small>
+                                &#9888; Solo letras minúsculas y sin acentos
+                            </small>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container2">
+            <img src="imagenes/Muñeco.png" alt="" class="img-look">
+
+            <div class="tarjeta2">
+                <div class="mensaje-contenedor">
+                    <input type="text" id="resultado" placeholder="¡Ningún mensaje fue encontrado!">
+                    <input type="text" id="resultado" placeholder="Ingresa el texto que desees codificar o decodificar">
+                </div>
+
+                <div class="contenedor-botones">
+                    <button class="btn-copy" id="copiar">Copiar</button>
+                    <!--
+                    <button 
+                        class="btn-copy" 
+                        id="escuchar"
+                    >Escuchar</button>
+                    -->
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    <script src="code.js"></script>
+</body>
+</html>
